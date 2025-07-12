@@ -1,0 +1,32 @@
+# Auto-detect and normalize line endings
+* text=auto
+
+# Force LF for all text files (optional but common for JS/TS teams)
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.env text eol=lf
+
+# Binary files (Git should not try to diff or convert)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.mp4 binary
+*.mov binary
+*.zip binary
+
+# OS-generated files
+*.bat text eol=crlf
