@@ -1,0 +1,20 @@
+{
+  "name": "lesson-4-setup-project",
+  "version": "1.0.0",
+  "description": "i am setting uo project for industry standards",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "javascripts",
+    "chai"
+  ],
+  "author": "pankaj yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
